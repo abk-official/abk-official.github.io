@@ -1,4 +1,8 @@
-div{
+body{
+    background-color: #424242;
+}
+
+div.topNav{
     background-color: rgb(32, 32, 32);
     color: white;
     text-align: center;
@@ -6,4 +10,17 @@ div{
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a.topNavText{
+    color: white;
+    text-decoration: none;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}.topNavText:hover{
+    color: cyan;
 }
